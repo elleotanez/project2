@@ -1,0 +1,133 @@
+@charset "utf-8";
+
+
+html {
+    background-image: url("home.jpg");
+    background-attachment: fixed;
+}
+
+
+body {
+    font-family: 'PT Serif', serif;
+    display: grid;
+    grid-template-areas: "header"
+                        "section"
+                        "main"
+                        "footer";
+    grid-gap: 100px;
+    
+    }
+
+
+.mainlogo {
+    
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+#logo {
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#main {
+    width: 35%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    border-radius: 3px;
+    padding: 20px 25px;
+    margin-bottom: 5%;
+}
+
+
+
+/*NAV*/
+
+
+
+nav.nav {
+    background-color: black;
+}
+ul.navlist {
+    text-align: center;
+    margin:0px;
+    text-transform: uppercase;
+}
+
+.navlist li {  
+    display: inline-block;
+    font-family: 'PT Serif', serif;
+    letter-spacing: 1px;
+    list-style-type: none;
+    margin: 2% 2% 2% 2%;
+}
+
+.navlist a, a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+.navlist a:hover {
+    color:#CCC5B9;
+}
+
+
+
+
+
+
+/*FOOTER*/
+
+
+footer {
+    color: white;
+    background-color: black;
+    font-family: 'PT Serif', serif;
+}
+
+
+h3 {
+    margin-left: 5%;
+    font-family: 'PT Serif', serif;
+}
+
+
+#telephone {
+    color:white;
+    margin-left: 5%;
+}
+
+
+#address {
+    margin-left: 5%;
+    margin-top: -1%;
+
+}
+
+
+
+
+#socialone {
+padding-left:88%;
+margin-top:-5%;
+margin-bottom: 1.5%;
+}
+
+#socialtwo {
+display:block;    
+padding-left: 92%;
+margin-top: -5%;
+padding-bottom: 5%;
+}
+
+.footer {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -13%;
+    padding-top: 25px;
+}
