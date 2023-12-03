@@ -3,10 +3,9 @@
 
 html {
    
-    background-image: url("home.jpg");
+    background-image: url("info.jpg");
     background-attachment: fixed;
 }
-
 
 
 body {
@@ -29,29 +28,46 @@ body {
     margin-left: auto;
     margin-right: auto;
     
+    
+    
 }
 
 #logo {
     width: 40%;
     margin-left: auto;
     margin-right: auto;
+    background-color: transparent;
+    margin-bottom: 0;
 }
+
+
 
 #main {
-    width: 35%;
-    margin-left: auto;
-    margin-right: auto;
-    background-color: white;
-    border-radius: 3px;
-    padding: 10px 25px;
-    margin-bottom: 5%;
-    text-align: justify;
-    line-height: 1.5em;
-    border-radius: 15px;
-    text-indent: 30px;
+    display: block;
+    width:100%;
+    margin:auto;
+    font-family: Arial, Helvetica, sans-serif;
+    
 }
 
 
+#consult  {
+    display: block;
+    margin: auto;
+    width: 30%;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 200%;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background: white;
+    border-radius: 5px;
+    padding:.5% 1% .5% 1%;
+    margin-bottom: 5%;
+    border: 5px solid #CCC5B9;
+    
+
+}
 
 
 /*NAV*/
@@ -114,11 +130,14 @@ h3 {
     color:white;
     margin-left: .5%;
     text-decoration: none;
+    font-size: medium;
+    font-style: normal;
 }
 
 #telephone a:hover
  {
     color: #CCC5B9;
+    
 }
 
 
@@ -150,5 +169,29 @@ padding-bottom: 5%;
     margin-right: auto;
     margin-top: -13%;
     padding-top: 25px;
-    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+/*FORM*/ 
+
+form {
+    display:block;
+    margin: auto;
+    width:35%;
+    background-color: white;
+    border-radius:10px;
+    padding:1%;
+    text-align: center;
+    border: 5px solid #CCC5B9;
+}
+
+label, input {
+    display: block;
+    margin: auto;
+    padding-bottom: 5px;
+}
+
+#comments {
+    margin-bottom: 15px;
 }
