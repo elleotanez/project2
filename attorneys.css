@@ -8,6 +8,7 @@ html {
 
 
 body {
+    background-color: #CCC5B9;
     margin:0;
     font-family: Arial, Helvetica, sans-serif;
     display: grid;
@@ -41,52 +42,7 @@ body {
 
 
 
-#main {
-    display: block;
-    width:100%;
-    margin:auto;
-    font-family: Arial, Helvetica, sans-serif;
-    
-}
-
-
-div  {
-
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 200%;
-    text-transform: uppercase;
-    padding-top: 2%;
-    margin-left: 5%;
-    letter-spacing: 2px;
-    font-style: italic;
-
-    
-
-}
-
-.mainsec  {
-    display:block;
-    margin: auto;
-    background-color: white;
-    border-radius:10px;
-    margin-bottom: 5%;
-    line-height:20px;
-    width:50%;
-    border: 3px solid black;
-
-}
-
-
-
-section p {
-    padding-left: 5%;
-    padding-bottom: 5%;
-    padding-right: 5%;
-    text-align: justify;
-}
-
-
-/*GALLERY*/
+/*GALLERY
 
 
 div.gallery {
@@ -112,7 +68,7 @@ div.gallery {
   div.desc {
     padding: 15px;
     text-align: center;
-    font-size:x-small;
+    font-size:small;
     letter-spacing: 0;
     font-style: normal;
   }
@@ -127,7 +83,7 @@ div.gallery {
     width:100%;
     background-color: transparent;
   }
-
+*/
 /*NAV*/
 
 
@@ -139,12 +95,13 @@ ul.navlist {
     text-align: center;
     margin:0px;
     text-transform: uppercase;
+    width: 100%;
 }
 
 .navlist li {  
     display: inline-block;
     font-family: Arial, Helvetica, sans-serif;
-    font-weight: lighterS;
+    font-weight: lighter;
     letter-spacing: 2px;
     list-style-type: none;
     margin: 2% 2% 2% 2%;
@@ -158,6 +115,84 @@ ul.navlist {
 .navlist a:hover {
     color:#CCC5B9;
 }
+
+#main h2 {
+   
+    display: block;
+    text-align: center;
+    margin-bottom: 6%;
+    padding: 0;
+}
+
+
+/*ACCORDION*/
+
+#main {
+    display: block;
+    width: 100%;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.mainsec {
+    margin-bottom: 8%;
+}
+
+.mainsec h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 200%;
+    text-transform: uppercase;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    margin: 0% 2%;
+    letter-spacing: 2px;
+    font-style: italic;
+}
+
+
+.accordion {
+    margin-top: 2%;
+    background-color: white;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    width: 45%; 
+    border: 3px solid black;
+}
+
+
+.accordion-item {
+    border-bottom: 1px solid white;
+}
+
+
+.accordion-button {
+    color: white;
+    background-color: black; 
+    border: none;
+    border-radius: 0;
+    text-align: left;
+}
+
+.accordion-button:not(.collapsed) {
+    color: white;
+    background-color: #e0e0e0;
+}
+
+
+.accordion-body {
+    padding: 15px;
+    text-align: justify;
+}
+
+#attorneyAccordion.accordion {
+    display: block;
+    margin: auto;
+}
+
+div.accordion-item {
+    margin-top: 2%;
+}
+
 
 
 
@@ -181,6 +216,7 @@ h3 {
     color:#CCC5B9;
     text-transform: uppercase;
     font-weight: lighter;
+    padding-top: 1%;
 
 }
 
@@ -217,7 +253,7 @@ margin-bottom: 1.5%;
 #socialtwo {
 display:block;    
 padding-left: 92%;
-margin-top: -5%;
+margin-top: -5.5%;
 padding-bottom: 5%;
 }
 
@@ -228,3 +264,15 @@ padding-bottom: 5%;
     margin-top: -13%;
     padding-top: 25px;
 }
+
+
+.card-group {
+    width: 70%;
+    margin: auto;
+}
+
+
+
+
+
+
