@@ -1,0 +1,181 @@
+@charset "utf-8";
+
+
+html {
+   
+    background-color: #CCC5B9;
+}
+
+body {
+    background-color: #CCC5B9;
+    margin:0;
+    font-family: Arial, Helvetica, sans-serif;
+    display: grid;
+    grid-template-areas: "header"
+                        "section"
+                        "main"
+                        "footer";
+    grid-gap: 100px;
+
+    }
+
+    .mainlogo {
+    
+        display:block;
+        margin-left: auto;
+        margin-right: auto;
+        
+    }
+
+    #logo {
+        width: 40%;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: transparent;
+        margin-bottom: 0;
+    }
+    
+
+    /*NAV*/
+
+
+
+nav.nav {
+    background-color: black;
+}
+ul.navlist {
+    text-align: center;
+    margin:0;
+    padding:0;
+    text-transform: uppercase;
+    width: 100%;
+}
+
+.navlist li {  
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    letter-spacing: 2px;
+    list-style-type: none;
+    margin: 2% 2% 2% 2%;
+}
+
+.navlist a, a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+.navlist a:hover {
+    color:#CCC5B9;
+}
+
+/*MAIN*/
+
+#main h2 {
+   
+    display: block;
+    text-align: center;
+    margin-bottom: 6%;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 200%;
+    text-transform: uppercase;
+    padding-top: 2%;
+    padding-bottom: 7%;
+    margin: 0% 2%;
+    letter-spacing: 2px;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+
+#familylaw {
+    display: block;
+    margin: auto;
+    width:100%;
+    height:800px;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+#familylawp {
+    width: 35%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    border-radius: 3px;
+    margin-top: 10%;
+    padding: 10px 25px;
+    margin-bottom: 5%;
+    text-align: justify;
+    line-height: 1.5em;
+    border-radius: 15px;
+    text-indent: 30px;
+    border: black solid 1px;
+}
+
+
+
+/*FOOTER*/
+
+
+footer {
+    color: white;
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+h3 {
+    margin-left: .5%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 200%;
+    color:#CCC5B9;
+    text-transform: uppercase;
+    font-weight: lighter;
+    padding-top: 1%;
+
+}
+
+#telephone, #telephone a {
+    color:white;
+    margin-left: .5%;
+    text-decoration: none;
+    font-size: medium;
+    font-style: normal;
+}
+
+#telephone a:hover
+ {
+    color: #CCC5B9;
+    
+}
+
+
+#address {
+    margin-left: 1%;
+    margin-top: -1%;
+
+}
+
+
+#socialone {
+padding-left:88%;
+margin-top:-5%;
+margin-bottom: 1.5%;
+}
+
+#socialtwo {
+display:block;    
+padding-left: 92%;
+margin-top: -5.5%;
+padding-bottom: 5%;
+}
+
+.footer {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -13%;
+    padding-top: 25px;
+}
